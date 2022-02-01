@@ -4,11 +4,20 @@ html {
     background-color:#dae7e6;
 }
 
+body {
+
+    padding: 0;
+    margin: 0;
+}
 
 input {
     border: 2px solid black;
     padding: 5px 10px;
     margin-left: 10px;
+}
+
+#info {
+    text-align: center;
 }
 
 a {
@@ -21,13 +30,39 @@ header {
 
     text-align: center;
     background-color:#e08283;
+    padding: 10px;
 }
 
 header h1 {
-    color:#22a7f0;
+    color:#333e63;
+    margin: 0;
+}
+/* on permet d'intégrer le padding a l'intérieur de l'élément container */
+* {
+    box-sizing: border-box;
+}
+
+form {
+    margin: auto;
+    width: 70%;
 }
 
 .container {
 
     width: 1000px;
+    padding: 15px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+button {
+    background-color:#ff4c30;
+    color:cornsilk;
+    border: 0;
+    cursor: pointer;
+    padding: 8px;
 }

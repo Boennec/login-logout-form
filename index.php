@@ -22,7 +22,7 @@
     </header>
     <div class="container">
 
-        <p>Bienvenue sur le site, pour en voir plus veuillez vous inscrire. Sinon il y a ça : <a href="connect.php">connectez vous</a></p>
+        <p id="info">Bienvenue sur le site, pour en voir plus veuillez vous inscrire. Sinon il y a ça : <a href="connect.php">connectez vous</a></p>
 
         <form method="POST" action="index.php">
             <p>
@@ -44,7 +44,10 @@
                     <td><input type="password" name="passwordConfirm" /></td>
                 </tr>
             </table>
-            <button type="submit">inscription</button>
+
+            <div id="button">
+                <button type="submit">inscription</button>
+            </div>
             </p>
         </form>
     </div>

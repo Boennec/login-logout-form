@@ -18,7 +18,7 @@
         <h1>Connexion</h1>
     </header>
     <div class="container">
-        <p>Bienvenue sur le site, si vous n'êtes pas inscrits, veuillez aller là: <a href="../">inscrivez-vous</a></p>
+        <p id="info">Bienvenue sur le site, si vous n'êtes pas inscrits, veuillez aller là: <a href="index.php">inscrivez-vous</a></p>
 
         <form method="POST" action="index.php">
             <p>
@@ -34,7 +34,9 @@
                 </tr>
 
             </table>
-            <button type="submit">Connexion</button>
+            <div id="button">
+                <button type="submit">Connexion</button>
+            </div>
             </p>
         </form>
     </div>
