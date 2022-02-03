@@ -56,7 +56,23 @@ form {
 #button {
     text-align: center;
     margin-top: 20px;
+}
+
+#error {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: block;
+}
     
+#success {
+
+    background-color: rgb(57, 255, 7);
+    color: rgb(8, 40, 221);
+    text-align: center;
+    padding: 5px;
+    display: block;
 }
 
 button {
